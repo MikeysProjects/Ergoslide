@@ -1,0 +1,12 @@
+file_format: "1"
+id: ergoslide
+name: Ergoslide
+type: shield
+url: https://github.com/MikeysProjects/Ergoslide
+requires: [pro_micro]
+exposes: []
+features:
+  - keys
+siblings:
+  - ergoslide_left
+  - ergoslide_right
