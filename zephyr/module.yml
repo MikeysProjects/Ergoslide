@@ -1,3 +1,4 @@
+name: Ergoslide
 build:
   settings:
     board_root: .
