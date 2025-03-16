@@ -8,5 +8,5 @@
 };
 
 &default_transform {
-  col-offset = <2>
+  col-offset = <2>;
 };
