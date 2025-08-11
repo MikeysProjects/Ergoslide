@@ -5,12 +5,6 @@
     compatible = "zmk,kscan-gpio-matrix";
     diode-direction = "col2row";
     wakeup-source;
-
-    // 6 rows! But let's start with 2 for testing
-    row-gpios
-      = <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-      , <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-      ;
   };
 
   default_transform: keymap_transform0 {
