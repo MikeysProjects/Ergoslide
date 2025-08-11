@@ -1,0 +1,4 @@
+*-backups/
+production/
+*.log
+fp-info-cache
