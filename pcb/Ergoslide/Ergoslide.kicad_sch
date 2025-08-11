@@ -173,6 +173,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ScottoKeebs:Placeholder_Diode"
 			(pin_numbers
 				(hide yes)
@@ -496,6 +686,156 @@
 				(pin passive line
 					(at 2.54 -2.54 180)
 					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ScottoKeebs:Placeholder_Switch"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Switch"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Placeholder_Switch_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -1090,6 +1430,142 @@
 						)
 					)
 					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1712,6 +2188,12 @@
 		(uuid "0542b8d0-5232-499c-accc-a41fd2e66895")
 	)
 	(junction
+		(at 156.21 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06fe16d6-398b-4d27-9001-02d8bae9b5f5")
+	)
+	(junction
 		(at 290.83 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1746,6 +2228,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ad7ebe8-9136-409e-9524-d6ebee4eeacc")
+	)
+	(junction
+		(at 149.86 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c3dd391-2425-462c-9064-3d3b2ff13720")
 	)
 	(junction
 		(at 313.69 144.78)
@@ -2252,6 +2740,12 @@
 		(uuid "9957f1c8-41a7-4dfa-9c22-83c942ccd369")
 	)
 	(junction
+		(at 149.86 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99a6b8c0-f413-48a4-94a2-9bafb316821b")
+	)
+	(junction
 		(at 335.28 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2472,6 +2966,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3019948-bf6d-4bbc-b80d-16d1b40b0cde")
+	)
+	(junction
+		(at 185.42 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4b69b36-a55c-43d4-8029-1903431d2fa9")
 	)
 	(junction
 		(at 149.86 69.85)
@@ -2759,16 +3259,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 203.2) (xy 146.05 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d091ffb-0701-41dd-bffc-784a16338236")
-	)
-	(wire
-		(pts
 			(xy 274.32 91.44) (xy 274.32 111.76)
 		)
 		(stroke
@@ -2776,6 +3266,16 @@
 			(type default)
 		)
 		(uuid "0d20c0f4-1788-4d03-a76f-a3c1346c09a7")
+	)
+	(wire
+		(pts
+			(xy 146.05 213.36) (xy 156.21 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b4b428-bf8e-4629-a8b9-ea576a9a20d7")
 	)
 	(wire
 		(pts
@@ -2999,6 +3499,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 204.47) (xy 149.86 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281d6426-d36c-4026-ba24-ba52c4ce82c6")
+	)
+	(wire
+		(pts
 			(xy 80.01 143.51) (xy 97.79 143.51)
 		)
 		(stroke
@@ -3139,6 +3649,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 213.36) (xy 175.26 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea0750a-0c3a-4a60-acfe-24f8f8a93982")
+	)
+	(wire
+		(pts
 			(xy 109.22 236.22) (xy 113.03 236.22)
 		)
 		(stroke
@@ -3149,6 +3669,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 208.28) (xy 149.86 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40958af9-4c27-46d5-93a2-4264a7da8fcd")
+	)
+	(wire
+		(pts
 			(xy 302.26 144.78) (xy 313.69 144.78)
 		)
 		(stroke
@@ -3156,6 +3686,16 @@
 			(type default)
 		)
 		(uuid "40a9f648-804e-49be-8fa2-11ad0d6ed036")
+	)
+	(wire
+		(pts
+			(xy 190.5 215.9) (xy 185.42 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4567cf08-2cc8-4a7e-9b0c-a4bb96db5727")
 	)
 	(wire
 		(pts
@@ -3236,6 +3776,16 @@
 			(type default)
 		)
 		(uuid "50851a4e-9be9-4101-9307-baf555d5e5cb")
+	)
+	(wire
+		(pts
+			(xy 156.21 193.04) (xy 149.86 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51113c40-f309-44cb-a05c-022d747c6103")
 	)
 	(wire
 		(pts
@@ -3419,6 +3969,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 193.04) (xy 149.86 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63e00e23-a4d2-4cb7-9d79-601309e3b0ac")
+	)
+	(wire
+		(pts
 			(xy 115.57 54.61) (xy 115.57 69.85)
 		)
 		(stroke
@@ -3469,6 +4029,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 209.55) (xy 156.21 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6929dba3-6f30-4150-87b9-4ab8845e9be6")
+	)
+	(wire
+		(pts
 			(xy 302.26 165.1) (xy 313.69 165.1)
 		)
 		(stroke
@@ -3496,16 +4066,6 @@
 			(type default)
 		)
 		(uuid "6af58d63-f290-4c4f-8316-79502509888a")
-	)
-	(wire
-		(pts
-			(xy 77.47 208.28) (xy 113.03 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6afc03ee-6e86-4df7-aad6-a63a05eec23f")
 	)
 	(wire
 		(pts
@@ -3609,6 +4169,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 195.58) (xy 127 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c3bdd3-51ea-4db4-aa55-da54a22287ce")
+	)
+	(wire
+		(pts
 			(xy 274.32 111.76) (xy 274.32 132.08)
 		)
 		(stroke
@@ -3666,16 +4236,6 @@
 			(type default)
 		)
 		(uuid "80676c7d-59da-4546-85b1-553a86ccc42c")
-	)
-	(wire
-		(pts
-			(xy 146.05 203.2) (xy 146.05 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "807f3037-1bc1-4c71-8b50-34a7c32fb750")
 	)
 	(wire
 		(pts
@@ -3759,6 +4319,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 195.58) (xy 149.86 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cec9471-b3b5-4745-8ea9-847bd0d693c9")
+	)
+	(wire
+		(pts
 			(xy 285.75 111.76) (xy 285.75 132.08)
 		)
 		(stroke
@@ -3816,6 +4386,16 @@
 			(type default)
 		)
 		(uuid "9296bc77-c461-4b8b-b801-ae5a9c14181e")
+	)
+	(wire
+		(pts
+			(xy 149.86 198.12) (xy 149.86 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93000095-a3b2-4a82-b46d-29c58a541cef")
 	)
 	(wire
 		(pts
@@ -3916,6 +4496,16 @@
 			(type default)
 		)
 		(uuid "9fe920f7-a422-4014-842b-f41fea68c412")
+	)
+	(wire
+		(pts
+			(xy 149.86 198.12) (xy 156.21 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a02acdac-1742-446f-82db-1a8275a4115b")
 	)
 	(wire
 		(pts
@@ -4179,6 +4769,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 204.47) (xy 149.86 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c43fffe3-eac0-4788-8ae1-a6faf8e85c8f")
+	)
+	(wire
+		(pts
 			(xy 274.32 132.08) (xy 274.32 152.4)
 		)
 		(stroke
@@ -4186,16 +4786,6 @@
 			(type default)
 		)
 		(uuid "c7bb72d2-65d2-4259-8751-010f69fc3a73")
-	)
-	(wire
-		(pts
-			(xy 77.47 203.2) (xy 77.47 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca2fbce0-5557-4f31-9efa-6a818d57d6af")
 	)
 	(wire
 		(pts
@@ -4359,6 +4949,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 213.36) (xy 185.42 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3b72a6-7f31-4437-a78e-813d615478d2")
+	)
+	(wire
+		(pts
 			(xy 320.04 55.88) (xy 320.04 71.12)
 		)
 		(stroke
@@ -4489,6 +5089,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 215.9) (xy 185.42 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9570349-66e8-42a8-830b-0a519ea60487")
+	)
+	(wire
+		(pts
 			(xy 132.08 184.15) (xy 181.61 184.15)
 		)
 		(stroke
@@ -4579,6 +5189,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 195.58) (xy 113.03 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f109032f-f41b-4535-a3d8-4ebf310573b4")
+	)
+	(wire
+		(pts
 			(xy 256.54 124.46) (xy 267.97 124.46)
 		)
 		(stroke
@@ -4636,6 +5256,16 @@
 			(type default)
 		)
 		(uuid "fc9f78b9-e445-4dd6-910b-49f522aafa28")
+	)
+	(wire
+		(pts
+			(xy 137.16 195.58) (xy 149.86 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8a5661-7c20-4911-a60c-19e76ae80b0c")
 	)
 	(wire
 		(pts
@@ -5732,6 +6362,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 132.08 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ba55838-56e4-4858-bdae-380ecb4ed1d9")
+		(property "Reference" "SW2"
+			(at 132.08 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Power Switch"
+			(at 132.08 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Switch_SSAL220100"
+			(at 132.08 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 132.08 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e20ade44-f553-4e95-a91d-6c73f85a1b66")
+		)
+		(pin "2"
+			(uuid "44cb70df-546a-43ae-af6e-11fe48e76bb9")
+		)
+		(instances
+			(project ""
+				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 346.71 80.01 90)
 		(unit 1)
@@ -6044,6 +6741,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 50.8 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "165d1a65-e214-48ed-a6bc-c4967d88ec2a")
+		(property "Reference" "H1"
+			(at 53.34 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 53.34 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 50.8 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 50.8 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 332.74 134.62 0)
 		(unit 1)
@@ -6194,6 +6955,70 @@
 			(project "Ergoslide"
 				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
 					(reference "D54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 190.5 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b26e75c-dbc1-4c17-9f63-613d9dcea8bc")
+		(property "Reference" "H2"
+			(at 193.04 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 193.04 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 190.5 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 190.5 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Ergoslide"
+				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -7802,6 +8627,74 @@
 			(project "Ergoslide"
 				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
 					(reference "S24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Switch")
+		(at 180.34 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aae71d6-fc09-41fe-a183-74d4ef858839")
+		(property "Reference" "SW1"
+			(at 180.34 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 180.34 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Panasonic_EVQPUL_EVQPUC"
+			(at 180.34 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 180.34 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5ed54c5-046e-4e40-a073-efb171642e3c")
+		)
+		(pin "2"
+			(uuid "58939185-417e-45e4-9d94-794e5d93dccb")
+		)
+		(instances
+			(project ""
+				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -12264,74 +13157,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 72.39 208.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e09bacd-c738-467a-bd95-5ecee90f6b7b")
-		(property "Reference" "J2"
-			(at 73.025 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 73.025 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 72.39 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 72.39 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ff6fee11-1eda-48b1-b3c7-0f3eff984849")
-		)
-		(pin "1"
-			(uuid "df453731-56e8-4a6c-b51c-4592016d5ea1")
-		)
-		(instances
-			(project "Ergoslide"
-				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 77.47 173.99 0)
 		(unit 1)
@@ -15014,6 +15839,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 50.8 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7b1b412-0155-4c1e-84dc-8684bacdf5c0")
+		(property "Reference" "H4"
+			(at 53.34 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 53.34 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Ergoslide"
+				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 66.04 92.71 0)
 		(unit 1)
@@ -15076,6 +15965,73 @@
 			(project "Ergoslide"
 				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
 					(reference "S17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 156.21 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a99e4782-6009-4e4c-9a48-22dcbedbec72")
+		(property "Reference" "TP1"
+			(at 158.75 188.4679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B- testpoint"
+			(at 158.75 191.0079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 161.29 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 156.21 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c46183f-a462-47d9-b109-9d12cf0e9847")
+		)
+		(instances
+			(project ""
+				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -16167,6 +17123,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 156.21 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd297753-3906-4b69-a54c-ff2c5bb8dd40")
+		(property "Reference" "TP3"
+			(at 158.75 204.9779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND testpoint"
+			(at 158.75 207.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 161.29 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 156.21 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08d06bd5-54ba-4a7d-bb61-db80423c242c")
+		)
+		(instances
+			(project "Ergoslide"
+				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 95.25 133.35 0)
 		(unit 1)
@@ -16961,6 +17984,70 @@
 			(project "Ergoslide"
 				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
 					(reference "D83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 190.5 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca1a2afe-2b33-4e06-b995-a638e20fa8d8")
+		(property "Reference" "H3"
+			(at 193.04 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 193.04 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Ergoslide"
+				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -17781,6 +18868,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 161.29 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6b90edc-5feb-4bd2-b605-6ce09dbf7e09")
+		(property "Reference" "J2"
+			(at 162.56 195.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 162.56 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 161.29 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 161.29 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "045cbe6d-9130-4580-8c57-9203e9860f33")
+		)
+		(pin "2"
+			(uuid "668ad2d6-02cd-4d01-a0fc-e4ccabb5d97b")
+		)
+		(instances
+			(project ""
+				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 166.37 99.06 90)
 		(unit 1)
@@ -17863,6 +19020,73 @@
 			(project "Ergoslide"
 				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
 					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 156.21 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d92d2e04-ea98-43d1-84f0-aeeef8fa1aaa")
+		(property "Reference" "TP2"
+			(at 158.75 199.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B+ testpoint"
+			(at 158.75 202.4379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 161.29 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 156.21 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a258ef8-04e2-4866-bb0f-f80ce2f69825")
+		)
+		(instances
+			(project "Ergoslide"
+				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -19531,6 +20755,73 @@
 			(project "Ergoslide"
 				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
 					(reference "S35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 190.5 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f48bcb72-4c10-4dc9-be3c-37c302f6bce5")
+		(property "Reference" "TP4"
+			(at 193.04 211.3279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RST testpoint"
+			(at 193.04 213.8679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 195.58 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 190.5 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "293be176-8e29-4f72-8a1b-4e2ce8d4a66e")
+		)
+		(instances
+			(project "Ergoslide"
+				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
