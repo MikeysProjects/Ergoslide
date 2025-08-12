@@ -1,11 +1,10 @@
 #include <physical_layouts.dtsi>
 
 / {
-  physical_layout0: physical_layout_0 {
+  ergoslide_physical_layout: ergoslide_physical_layout {
     compatible = "zmk,physical-layout";
     display-name = "Ergoslide";
-    transform = <&default_transform>;
-    kscan = <&kscan0>;
+
     keys  //                         w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100  225    0       0     0     0>
             , <&key_physical_attrs 100 100  325    0       0     0     0>
