@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-  ergoslide_physical_layout: ergoslide_physical_layout {
+  physical_layout0: physical_layout_0 {
     compatible = "zmk,physical-layout";
     display-name = "Ergoslide";
     transform = <&default_transform>;
