@@ -23,14 +23,12 @@
   };
 
   &physical_layout0 {
-        compatible = "zmk,physical-layout";
-        display-name = "Default Layout";
         kscan = <&kscan0>; // Label of the kscan node, optional if all layouts use the same
         transform = <&default_transform>; // Label of the matrix transform for this layout
   };
 
   chosen {
     zmk,kscan = &kscan0;
-    zmk,physical-layout = &physical_layout0;
+    zmk,physical-layout = &ergoslide_physical_layout;
   };
 };
