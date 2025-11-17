@@ -493,7 +493,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../models/Ergoslide-Left-PCB.step",
       "svg": "",
       "vrml": ""
     },
