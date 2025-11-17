@@ -32,7 +32,7 @@
   wakeup_scan: wakeup_scan {
     compatible = "zmk,kscan-gpio-direct";
     input-keys = <&soft_off_gpio_key>;
-    wakeup-source;
+//    wakeup-source;
   };
 
   side_band_behavior_triggers: side_band_behavior_triggers {
@@ -40,7 +40,7 @@
 
     kscan = <&wakeup_scan>;
     auto-enable;
-    wakeup-source;
+//    wakeup-source;
 
     soft_off {
       column = <0>;
@@ -49,9 +49,14 @@
     };
   };
 
-  soft_off_wakers {
-      compatible = "zmk,soft-off-wakeup-sources";
-      wakeup-sources = <&wakeup_scan>;
+//  soft_off_wakers {
+//      compatible = "zmk,soft-off-wakeup-sources";
+//      wakeup-sources = <&wakeup_scan>;
+//  };
+
+  external_power: external_power {
+    compatible = "zmk,ext-power-generic";
+    control-gpios = <&pro_micro 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
   };
 
   default_transform: keymap_transform0 {
