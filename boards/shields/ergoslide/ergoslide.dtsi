@@ -54,11 +54,6 @@
 //      wakeup-sources = <&wakeup_scan>;
 //  };
 
-  external_power: external_power {
-    compatible = "zmk,ext-power-generic";
-    control-gpios = <&pro_micro 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-  };
-
   default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <11>;
