@@ -18,7 +18,7 @@
       compatible = "zmk,behavior-soft-off";
       #binding-cells = <0>;
       split-peripheral-off-on-press; // Turn peripheral off immediately for reliability
-      hold-time-ms = <2000>; // Only turn off if the key is held for 2 seconds or longer.
+      hold-time-ms = <1000>; // Only turn off if the key is held for 2 seconds or longer.
     };
   };
 
@@ -51,7 +51,7 @@
 
   soft_off_wakers {
       compatible = "zmk,soft-off-wakeup-sources";
-      wakeup-sources = <&wakeup_scan>, <&kscan0>;
+      wakeup-sources = <&wakeup_scan>;
   };
 
   default_transform: keymap_transform0 {
