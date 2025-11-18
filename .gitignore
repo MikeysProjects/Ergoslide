@@ -2,3 +2,4 @@
 .zmk/
 ~*
 _autosave*
+\#auto_saved_files#
