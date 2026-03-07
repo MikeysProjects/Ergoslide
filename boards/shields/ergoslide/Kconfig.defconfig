@@ -20,4 +20,10 @@ config ZMK_HID_INDICATORS
 config ZMK_SPLIT_PERIPHERAL_HID_INDICATORS
     default y
 
+config LED
+    default y
+
+config LED_GPIO
+    default y
+
 endif
