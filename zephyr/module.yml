@@ -1,4 +1,5 @@
 name: Ergoslide
 build:
+  cmake: .
   settings:
     board_root: .
