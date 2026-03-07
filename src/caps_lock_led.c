@@ -4,6 +4,8 @@
  * SPDX-License-Identifier: MIT
  */
 
+#error "caps_lock_led.c is compiling"
+
 #include <errno.h>
 
 #include <zephyr/device.h>
