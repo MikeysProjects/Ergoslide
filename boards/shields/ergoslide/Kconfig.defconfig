@@ -14,4 +14,10 @@ if SHIELD_ERGOSLIDE_LEFT || SHIELD_ERGOSLIDE_RIGHT
 config ZMK_SPLIT
     default y
 
+config ZMK_HID_INDICATORS
+    default y
+
+config ZMK_SPLIT_PERIPHERAL_HID_INDICATORS
+    default y
+
 endif
