@@ -62,7 +62,8 @@ static int caps_lock_led_init(void) {
         return -ENODEV;
     }
 
-    return caps_lock_led_update(zmk_hid_indicators_get_current_profile());
+    /* Temporary hardware validation: force the LED on at boot. */
+    return led_on(caps_lock_leds, CAPS_LOCK_LED_INDEX);
 }
 
 SYS_INIT(caps_lock_led_init, APPLICATION, CONFIG_APPLICATION_INIT_PRIORITY);

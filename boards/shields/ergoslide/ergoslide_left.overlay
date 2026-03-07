@@ -2,7 +2,16 @@
 
 / {
   aliases {
-    capslockled = &blue_led;
+    capslockled = &caps_lock_led;
+  };
+
+  caps_lock_leds {
+    compatible = "gpio-leds";
+
+    caps_lock_led: caps_lock_led_0 {
+      gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
+      label = "Caps Lock LED";
+    };
   };
 };
 
