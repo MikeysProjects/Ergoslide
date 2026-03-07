@@ -1387,6 +1387,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -3324,6 +3500,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 187.96) (xy 267.97 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56707527-9daf-4863-9598-976800375b11")
+	)
+	(wire
+		(pts
 			(xy 297.18 55.88) (xy 297.18 71.12)
 		)
 		(stroke
@@ -3344,7 +3530,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 189.23) (xy 323.85 189.23)
+			(xy 256.54 189.23) (xy 267.97 189.23)
 		)
 		(stroke
 			(width 0)
@@ -4664,6 +4850,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 189.23) (xy 278.13 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4acb4b-13cc-4a3a-b75f-1c686a9e0df2")
+	)
+	(wire
+		(pts
 			(xy 325.12 165.1) (xy 335.28 165.1)
 		)
 		(stroke
@@ -4741,6 +4937,16 @@
 			(type default)
 		)
 		(uuid "df624e09-a730-43e5-ba2e-e1c7c0ca73cc")
+	)
+	(wire
+		(pts
+			(xy 278.13 189.23) (xy 323.85 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1622f60-9e68-4b85-adb8-7c046d9b83ec")
 	)
 	(wire
 		(pts
@@ -7154,7 +7360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-2.25U"
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-2.25U Stabilized"
 			(at 332.74 134.62 0)
 			(effects
 				(font
@@ -15206,7 +15412,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-2.75U"
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-2.75U Stabilized"
 			(at 129.54 173.99 0)
 			(effects
 				(font
@@ -16609,6 +16815,77 @@
 			(project "Ergoslide"
 				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
 					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 273.05 190.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a16c698c-0a6e-4fd0-b873-c544edc9bc82")
+		(property "Reference" "SW2"
+			(at 273.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 273.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN"
+			(at 273.05 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 273.05 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a128e53-a87b-4b79-979a-f7d81295c96f")
+		)
+		(pin "3"
+			(uuid "48633e30-fa4f-459a-8cbe-6bc6942f89a3")
+		)
+		(pin "1"
+			(uuid "65a8be87-11fb-447b-8c24-f215cc5ef8a8")
+		)
+		(instances
+			(project ""
+				(path "/3bd86599-9c29-4fa4-bb71-eb869531a59b"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -21786,7 +22063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-2.25U"
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-2.25U Stabilized"
 			(at 276.86 175.26 0)
 			(effects
 				(font
@@ -22661,7 +22938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-2.25U"
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-2.25U Stabilized"
 			(at 95.25 153.67 0)
 			(effects
 				(font
