@@ -1,11 +1,25 @@
 #include <physical_layouts.dtsi>
 
-/ {
-  ergoslide_physical_layout: ergoslide_physical_layout {
-    compatible = "zmk,physical-layout";
-    display-name = "Ergoslide";
+/*
+  Take the layout from KLE
+    https://www.keyboard-layout-editor.com/#/
+  And import it in to keymap-layout-tools
+    https://nickcoutsos.github.io/keymap-layout-tools/
+  And take that output over to ZMK physical layouts editor
+    https://zmk-physical-layout-converter.streamlit.app/
+*/
 
-    keys  //                         w   h    x    y     rot    rx    ry
+
+/ {
+      ergoslide_physical_layout: ergoslide_physical_layout {
+        compatible = "zmk,physical-layout";
+        display-name = "Ergoslide";
+
+        kscan = <&kscan0>;
+        transform = <&matrix_transform0>;
+
+        keys  //                     w   h    x    y     rot    rx    ry
+            /* Left hand side row 1 */
             = <&key_physical_attrs 100 100  225    0       0     0     0>
             , <&key_physical_attrs 100 100  325    0       0     0     0>
             , <&key_physical_attrs 100 100  425    0       0     0     0>
@@ -13,8 +27,19 @@
             , <&key_physical_attrs 100 100  625    0       0     0     0>
             , <&key_physical_attrs 100 100  725    0       0     0     0>
             , <&key_physical_attrs 100 100  825    0       0     0     0>
-            , <&key_physical_attrs 100 100 1025    0       0     0     0> // Right side
-            , <&key_physical_attrs 100 100 1125    0       0     0     0> // Right side
+
+            /* Right hand side row 1 */
+            , <&key_physical_attrs 100 100 1225    0       0     0     0>
+            , <&key_physical_attrs 100 100 1325    0       0     0     0>
+            , <&key_physical_attrs 100 100 1425    0       0     0     0>
+            , <&key_physical_attrs 100 100 1525    0       0     0     0>
+            , <&key_physical_attrs 100 100 1625    0       0     0     0>
+            , <&key_physical_attrs 100 100 1725    0       0     0     0>
+            , <&key_physical_attrs 100 100 1825    0       0     0     0>
+            , <&key_physical_attrs 100 100 1925    0       0     0     0>
+            , <&key_physical_attrs 100 100 2025    0       0     0     0>
+
+            /* Left hand side row 2 */
             , <&key_physical_attrs 100 100    0  125       0     0     0>
             , <&key_physical_attrs 100 100  100  125       0     0     0>
             , <&key_physical_attrs 100 100  225  125       0     0     0>
@@ -24,8 +49,18 @@
             , <&key_physical_attrs 100 100  625  125       0     0     0>
             , <&key_physical_attrs 100 100  725  125       0     0     0>
             , <&key_physical_attrs 100 100  825  125       0     0     0>
-            , <&key_physical_attrs 100 100 1025  125       0     0     0> // Right side
-            , <&key_physical_attrs 100 100 1125  125       0     0     0> // Right side
+
+            /* Right hand side row 2 */
+            , <&key_physical_attrs 100 100 1225  125       0     0     0>
+            , <&key_physical_attrs 100 100 1325  125       0     0     0>
+            , <&key_physical_attrs 100 100 1425  125       0     0     0>
+            , <&key_physical_attrs 100 100 1525  125       0     0     0>
+            , <&key_physical_attrs 100 100 1625  125       0     0     0>
+            , <&key_physical_attrs 100 100 1725  125       0     0     0>
+            , <&key_physical_attrs 200 100 1825  125       0     0     0>
+            , <&key_physical_attrs 100 100 2025  125       0     0     0>
+
+            /* Left hand side row 3 */
             , <&key_physical_attrs 100 100    0  225       0     0     0>
             , <&key_physical_attrs 100 100  100  225       0     0     0>
             , <&key_physical_attrs 150 100  225  225       0     0     0>
@@ -34,6 +69,19 @@
             , <&key_physical_attrs 100 100  575  225       0     0     0>
             , <&key_physical_attrs 100 100  675  225       0     0     0>
             , <&key_physical_attrs 100 100  775  225       0     0     0>
+
+            /* Right hand side row 3 */
+            , <&key_physical_attrs 100 100 1175  225       0     0     0>
+            , <&key_physical_attrs 100 100 1275  225       0     0     0>
+            , <&key_physical_attrs 100 100 1375  225       0     0     0>
+            , <&key_physical_attrs 100 100 1475  225       0     0     0>
+            , <&key_physical_attrs 100 100 1575  225       0     0     0>
+            , <&key_physical_attrs 100 100 1675  225       0     0     0>
+            , <&key_physical_attrs 100 100 1775  225       0     0     0>
+            , <&key_physical_attrs 150 100 1875  225       0     0     0>
+            , <&key_physical_attrs 100 100 2025  225       0     0     0>
+
+            /* Left hand side row 4 */
             , <&key_physical_attrs 100 100    0  325       0     0     0>
             , <&key_physical_attrs 100 100  100  325       0     0     0>
             , <&key_physical_attrs 175 100  225  325       0     0     0>
@@ -42,6 +90,18 @@
             , <&key_physical_attrs 100 100  600  325       0     0     0>
             , <&key_physical_attrs 100 100  700  325       0     0     0>
             , <&key_physical_attrs 100 100  800  325       0     0     0>
+
+            /* Right hand side row 4 */
+            , <&key_physical_attrs 100 100 1200  325       0     0     0>
+            , <&key_physical_attrs 100 100 1300  325       0     0     0>
+            , <&key_physical_attrs 100 100 1400  325       0     0     0>
+            , <&key_physical_attrs 100 100 1500  325       0     0     0>
+            , <&key_physical_attrs 100 100 1600  325       0     0     0>
+            , <&key_physical_attrs 100 100 1700  325       0     0     0>
+            , <&key_physical_attrs 225 100 1800  325       0     0     0>
+            , <&key_physical_attrs 100 100 2025  325       0     0     0>
+
+            /* Left hand side row 5 */
             , <&key_physical_attrs 100 100    0  425       0     0     0>
             , <&key_physical_attrs 100 100  100  425       0     0     0>
             , <&key_physical_attrs 225 100  225  425       0     0     0>
@@ -50,12 +110,33 @@
             , <&key_physical_attrs 100 100  650  425       0     0     0>
             , <&key_physical_attrs 100 100  750  425       0     0     0>
             , <&key_physical_attrs 100 100  850  425       0     0     0>
+
+            /* Right hand side row 5 */
+            , <&key_physical_attrs 100 100 1250  425       0     0     0>
+            , <&key_physical_attrs 100 100 1350  425       0     0     0>
+            , <&key_physical_attrs 100 100 1450  425       0     0     0>
+            , <&key_physical_attrs 100 100 1550  425       0     0     0>
+            , <&key_physical_attrs 100 100 1650  425       0     0     0>
+            , <&key_physical_attrs 175 100 1750  425       0     0     0>
+            , <&key_physical_attrs 100 100 1925  425       0     0     0>
+            , <&key_physical_attrs 100 100 2025  425       0     0     0>
+
+            /* Left hand side row 6 */
             , <&key_physical_attrs 100 100    0  525       0     0     0>
             , <&key_physical_attrs 100 100  100  525       0     0     0>
             , <&key_physical_attrs 125 100  225  525       0     0     0>
             , <&key_physical_attrs 125 100  350  525       0     0     0>
             , <&key_physical_attrs 125 100  475  525       0     0     0>
             , <&key_physical_attrs 275 100  600  525       0     0     0>
+
+            /* Right hand side row 6 */
+            , <&key_physical_attrs 225 100 1250  525       0     0     0>
+            , <&key_physical_attrs 125 100 1475  525       0     0     0>
+            , <&key_physical_attrs 100 100 1600  525       0     0     0>
+            , <&key_physical_attrs 125 100 1700  525       0     0     0>
+            , <&key_physical_attrs 100 100 1825  525       0     0     0>
+            , <&key_physical_attrs 100 100 1925  525       0     0     0>
+            , <&key_physical_attrs 100 100 2025  525       0     0     0>
             ;
-  };
+    };
 };
