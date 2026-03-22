@@ -1,9 +1,24 @@
 #include "ergoslide.dtsi"
 
+/ {
+  aliases {
+    capslockled = &caps_lock_led;
+  };
+
+  caps_lock_leds {
+    compatible = "gpio-leds";
+
+    caps_lock_led: caps_lock_led_0 {
+      gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
+      label = "Caps Lock LED";
+    };
+  };
+};
+
 &kscan0 {
   col-gpios
-    = <&pro_micro 21 GPIO_ACTIVE_HIGH>
-    , <&pro_micro 20 GPIO_ACTIVE_HIGH>
+    = <&pro_micro 16 GPIO_ACTIVE_HIGH>
+    , <&pro_micro 10 GPIO_ACTIVE_HIGH>
     , <&pro_micro 8 GPIO_ACTIVE_HIGH>
     , <&pro_micro 7 GPIO_ACTIVE_HIGH>
     , <&pro_micro 6 GPIO_ACTIVE_HIGH>
@@ -14,11 +29,11 @@
     ;
 
   row-gpios
-    = <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-    , <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+    = <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
     , <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-    , <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-    , <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-    , <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+    , <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+    , <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+    , <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+    , <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
     ;
 };
